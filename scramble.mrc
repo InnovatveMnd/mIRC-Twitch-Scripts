@@ -21,7 +21,7 @@ Have fun!!!
 ON *:LOAD: {
   SET %scram_minbet 1
   SET %scram_maxbet 500
-  SET %scram_cd 120
+  SET %scram_cd 30
 }
 
 ON *:UNLOAD: { UNSET %scram_* }
